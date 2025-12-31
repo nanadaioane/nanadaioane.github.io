@@ -1,10 +1,10 @@
 <script>
 	import AnimationFrameSnow from "../components/AnimationFrameSnow.svelte";
-	import PhotoCircle from "../components/PhotoCircle.svelte";
+	import PhotoMasonry from "../components/PhotoMasonry.svelte";
 </script>
 
 <div>
-	<PhotoCircle />
+	<PhotoMasonry />
 	<AnimationFrameSnow />
 </div>
 
