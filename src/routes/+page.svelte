@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+	import AnimationFrameSnow from "../components/AnimationFrameSnow.svelte";
+	import PhotoCircle from "../components/PhotoCircle.svelte";
+</script>
+
+<div>
+	<PhotoCircle />
+	<AnimationFrameSnow />
+</div>
+
+<style>
+	:global(body, html) {
+		overflow: hidden !important;
+		background-color: #ffc8dd !important;
+	}
+</style>
